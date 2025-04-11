@@ -1,52 +1,35 @@
-# Prerequisites
-*.d
+# Build Folders
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Auto-Generated Files
+*.generated.cs
+*.designer.cs
 
-# Precompiled Headers
-*.gch
-*.pch
+# Logs
+*.log
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Visual Studio Code
+.vscode/
 
-# Shared objects (inc. Windows DLLs)
+# Rider IDE
+.idea/
+*.iml
+
+# Build Output
 *.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
 *.pdb
+*.cache
+*.zip
+*.tar.gz
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# OS Generated Files
+.DS_Store
+Thumbs.db
